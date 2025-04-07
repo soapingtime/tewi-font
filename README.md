@@ -8,23 +8,23 @@ This repo has been reconstructed from [this](https://web.archive.org/web/2024120
 
 #### tewii-medium
 
-![](screeshots/screenshot3.png)
+![](screenshots/screenshot3.png)
 
 #### tewi2a-medium
 
-![](screeshots/screenshot4.png)
+![](screenshots/screenshot4.png)
 
 #### tewi-bold
 
-![](screeshots/screenshot5.png)
+![](screenshots/screenshot5.png)
 
 #### tewii-bold
 
-![](screeshots/screenshot6.png)
+![](screenshots/screenshot6.png)
 
 #### tewi2a-bold
 
-![](screeshots/screenshot7.png)
+![](screenshots/screenshot7.png)
 
 
 ## Building
