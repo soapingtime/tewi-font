@@ -1,6 +1,8 @@
-> This repo is a **mirror** of the [tewi font repository](https://github.com/lucy/tewi-font) by [lucy](https://github.com/lucy). Everything is the same as the original repository except for these first two lines in the `README` and the screenshots in the `assets` folder, which were previously hosted on GitHub pages.
+> This repo is a **mirror** of the [tewi font repository](https://github.com/lucy/tewi-font) by [lucy](https://github.com/lucy). Everything is the same as the original repository except for these first three lines in the `README` and the screenshots in the `assets` folder, which were previously hosted on GitHub pages.
 
 > **NOTE**: The distro packages listed in `Installing` will no longer work as they are pointed at the original repository.
+
+> See https://codeberg.org/em64/tewi and https://archive.org/details/tewi-font-master for 2 more mirrors, and thank you em for finding the missing files
 
 ![screenshot](assets/tewi.png)
 
