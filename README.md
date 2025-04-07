@@ -1,65 +1,54 @@
-This repo has been reconstructed from [this](https://web.archive.org/web/20241208143553/https://github.com/lucy/tewi-font) archive.org snapshot. Everything is the same as the original except for this line in the README and the screenshots folder, which was hosted elsewhere in the original repo. Every file in variant and scripts (except for `tewi2a-medium-11.bdf`) is missing. Please make pull request if you have them.
+> This repo is a **mirror** of the [tewi font repository](https://github.com/lucy/tewi-font) by [lucy](https://github.com/lucy). Everything is the same as the original repository except for these first two lines in the `README` and the screenshots in the `assets` folder, which were previously hosted on GitHub pages.
 
-![](screenshots/screenshot1.png)
+> **NOTE**: The distro packages listed in `Installing` will no longer work as they are pointed at the original repository.
+
+![screenshot](assets/tewi.png)
 
 #### tewi-medium
-
-![](screenshots/screenshot2.png)
+![tewi-medium](assets/tewi-medium.png)
 
 #### tewii-medium
-
-![](screenshots/screenshot3.png)
+![tewii-medium](assets/tewii-medium.png)
 
 #### tewi2a-medium
-
-![](screenshots/screenshot4.png)
+![tewi2a-medium](assets/tewi2a-medium.png)
 
 #### tewi-bold
-
-![](screenshots/screenshot5.png)
+![tewi-bold](assets/tewi-bold.png)
 
 #### tewii-bold
-
-![](screenshots/screenshot6.png)
+![tewii-bold](assets/tewii-bold.png)
 
 #### tewi2a-bold
-
-![](screenshots/screenshot7.png)
-
+![tewi2a-bold](assets/tewi2a-bold.png)
 
 ## Building
-
 #### Requirements
-
 * python 3 (variant generator)
 * bdftopcf (.pcf files)
 
 Run `make` to build PCFs. To only build the standalone BDF files run `make var`.
 
 ## Installing
-
 #### Arch
-
-[AUR Package](https://aur.archlinux.org/packages/bdf-tewi-git/)
+[AUR package](https://aur.archlinux.org/packages/bdf-tewi-git/)
 
 #### Crux
-
-[6c37/pcf-tewi](https://web.archive.org/web/20241008052457mp_/https://github.com/6c37/crux-ports)
+[6c37/pcf-tewi](https://github.com/6c37/crux-ports)
 
 #### X11
-
-```sh
+```shell
 $ make fontdir
 $ xset +fp /path/to/tewi-font/out # you should do this every time X starts
                                   # e.g. put it in your ~/.xinitrc
 ```
 
 #### Fontconfig
-
-```sh
+```shell
 $ make
 $ ln -s /path/to/tewi-font/out ~/.fonts/tewi
 $ fc-cache -fv
 ```
 
-NOTE: If your distro has a file like `70-no-bitmaps.conf` in `/etc/fonts/conf.d`, and tewi doesn't work, you should remove it.
+NOTE: If your distro has a file like `70-no-bitmaps.conf` in
+`/etc/fonts/conf.d`, and tewi doesn't work, you should remove it.
